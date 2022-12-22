@@ -1,11 +1,16 @@
-# Data Factory
-Data Factory aims on computing so called data entries.
-A data entry can be a remote source or an output computed by a script. 
-Scripts can transform one data entry into another. 
-Each data entry must be described by metadata that allow for data entry identification. 
-As a result, it is possible to reuse data entries during computations. 
+# Data Bot
+Most users work with data on a day-to-day basis. 
+Data interaction may range from organizing photos, organizing data in a company, or developing scientific workflows.
+While different in complexity above use cases share functionalities like storing data, managing metadata or transforming data. 
 
-A user can specify which data entries should be computed and Data Factory does the heavy lifting.
+There are solutions to tackle individual steps as well as the whole process.
+Yet, we believe there is still room for improvement. 
+For example, many solutions do not implement open standards, effectively locking users in their ecosystem. 
+Other solutions process a small amount of data on a user's computer or a large amount of data on a cluster with nothing in between. 
+
+As users, we should be able to define what data are and where they come from and transform them at will. 
+It should be the responsibility of the software to keep track of the metadata and oversee the transformation process on local or remote machines. 
+At the same time, the data, metadata, amd transformation scripts must still be under the control of a user. 
 
 ## Resources
 * Python Executing Commands : https://realpython.com/python-subprocess/
