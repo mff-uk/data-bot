@@ -1,0 +1,28 @@
+site_name: Data-Bot
+site_url: https://docs.recap.cloud
+site_description: Open and standardized data management
+site_author: Petr Škoda
+repo_name: skodapetr/data-bot
+repo_url: https://github.com/skodapetr/data-bot
+edit_uri: https://github.com/skodapetr/data-bot/tree/main/documentation
+docs_dir: ./documentation/
+nav:
+    - Home: index.md
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: black
+      accent: black
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: black
+      accent: black
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
